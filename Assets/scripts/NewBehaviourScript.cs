@@ -11,7 +11,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         for(int i = 0; i < prefabs; i++)
         {
-            var position = new Vector3(Random.Range(-10f, 10f), Random.Range(-5, 5), Random.Range(-10f, 10));
+            var position = new Vector3(Random.Range(-10, 10), Random.Range(-5, 5), Random.Range(-10, 10));
             Instantiate(Prefabs, position, Quaternion.identity);
         }
     }
